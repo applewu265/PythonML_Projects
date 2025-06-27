@@ -13,6 +13,13 @@ Author: Apple Wu
 * Used UCI Heart Dataset from Kaggle (priyanka841/heart-disease-prediction-uci)
 * Trained multiple models to predict heart disease, chose RandomForest
 
-**Project 3: MNIST Classifier (In Progress)**
-* Objectie: to train and evaluate various models to classify the MNIST dataset
+**Project 3: MNIST Classifier (Finalizing)**
+* Objective: to train and evaluate various ML models to classify the MNIST dataset
+* Trained SVC and RandomForest as binary classifiers and as multiclass classifiers
+* Trained KNN as multioutput multiclass classifier to remove added noise from MNIST images
+* Model evaluation in progress
 * (Primarily for learning purposes)
+
+**Project 4: Hospital Readmission Prediction (In Progress)**
+* Objective: to predict whether a diabetes patient will be readmitted to the hospital within 30 days of discharge
+* Using Diabetes 130-US Hospitals for Years 1999-2008 dataset from UCI ML repository
