@@ -23,5 +23,9 @@ Author: Apple Wu
 **Project 4: Hospital Readmission Prediction (In Progress)**
 * Objective: to predict whether a diabetes patient will be readmitted to the hospital within 30 days of discharge
 * Using Diabetes 130-US Hospitals for Years 1999-2008 dataset from UCI ML repository
-* Trained RandomForest for multiclass classifier to predict if a patient will be readmitted within 30 days, readmitted after 30+ days, or not readmitted
-* Optimizing model (current performance: 57.38% accuracy, 53.66% precision, 57.38% recall)
+* Applied custom transformations and handled missing data
+* Trained multiple models for multiclass classification to predict if a patient will be readmitted within 30 days, readmitted after 30+ days, or not readmitted
+* Optimizing model
+    * Improved to 67.73% accuracy, 64.57% precision, 67.73% recall, ROC AUC 0.7884
+    * Previous metrics: 57.38% accuracy, 53.66% precision, 57.38% recall
+    * Currently optimizing Random Forest hyperparameters
