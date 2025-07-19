@@ -20,12 +20,12 @@ Author: Apple Wu
 * Achieved 90.05% accuracy, 90.82% precision, and 90.05% recall
 * (Primarily for learning purposes)
 
-**Project 4: Hospital Readmission Prediction (In Progress)**
+**Project 4: Hospital Readmission Prediction (Finalizing)**
 * Objective: to predict whether a diabetes patient will be readmitted to the hospital within 30 days of discharge
 * Using Diabetes 130-US Hospitals for Years 1999-2008 dataset from UCI ML repository
-* Applied custom transformations and handled missing data
 * Trained multiple models for multiclass classification to predict if a patient will be readmitted within 30 days, readmitted after 30+ days, or not readmitted
-* Optimizing model
-    * Improved to 67.73% accuracy, 64.57% precision, 67.73% recall, ROC AUC 0.7884
-    * Previous metrics: 57.38% accuracy, 53.66% precision, 57.38% recall
-    * Currently optimizing Random Forest hyperparameters
+* Created pipelines to handle missing data, transform numerical features, and apply feature engineering
+    * Handled features with over 90% missing values
+    * Created custom transformations to 
+* Optimized model to achieve 71.79% accuracy, 72.14% precision, 71.79% recall, and 0.8253 ROC AUC
+    * Initial metrics (with minimal transformations applied and no hyperparameter optimization): 57.38% accuracy, 53.66% precision, 57.38% recall
