@@ -18,9 +18,8 @@ Author: Apple Wu
 * Trained SVC and RandomForest as binary classifiers and as multiclass classifiers
 * Trained KNN as multioutput multiclass classifier to remove added noise from MNIST images
 * Achieved 90.05% accuracy, 90.82% precision, and 90.05% recall
-* (Primarily for learning purposes)
 
-**Project 4: Hospital Readmission Prediction (Finalizing)**
+**Project 4: Hospital Readmission Prediction (Finalized)**
 * Objective: to predict whether a diabetes patient will be readmitted to the hospital within 30 days of discharge
 * Using Diabetes 130-US Hospitals for Years 1999-2008 dataset from UCI ML repository
 * Trained multiple models for multiclass classification to predict if a patient will be readmitted within 30 days, readmitted after 30+ days, or not readmitted
