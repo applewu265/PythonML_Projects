@@ -1,3 +1,4 @@
 *.csv
 March_Madness2026/data
 */.ipynb_checkpoints
+.ipynb_checkpoints
